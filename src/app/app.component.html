@@ -65,22 +65,67 @@
 
 <!-- Property Binding  -->
 <span>Interpolation Binding</span>
-<input type="text" #interPolation name="userName" value={{myName}} disabled={{disable}} />
+<input
+  type="text"
+  #interPolation
+  name="userName"
+  value="{{ myName }}"
+  disabled="{{ disable }}"
+/>
 <span>Property Binding</span>
-<input type="text" #property name="userName" [value]=myName [disabled]=disable  />
+<input
+  type="text"
+  #property
+  name="userName"
+  [value]="myName"
+  [disabled]="disable"
+/>
 <button (click)="disableFalse()">Disable False</button>
 <!-- Property Binding  -->
 
-
 <!-- If Condition -->
 <h1>*ngIf</h1>
-<h2 *ngIf="show; then thenID else elseID"></h2>
+<h2 *ngIf="show; then thenID; else elseID"></h2>
 
 <ng-template #thenID>
-   <h2>If Condition is true</h2>
+  <h2>If Condition is true</h2>
 </ng-template>
 
 <ng-template #elseID>
   <h2>If Condition is false</h2>
 </ng-template>
 <!-- If Condition -->
+
+<!-- Router Start  -->
+<ul>
+  <li>
+    <a routerLink="">Home</a>
+  </li>
+  <li>
+    <a routerLink="about">About</a>
+  </li>
+  <li>
+    <a routerLink="user">User</a>
+  </li>
+</ul>
+
+<!-- <div>
+  <router-outlet></router-outlet>
+</div> -->
+<!-- Router End -->
+
+<!-- FORM START  -->
+<form [formGroup]="profileForm" (ngSubmit)="onSubmit()">
+  <div>
+    <label for="firstName">First Name</label>
+    <input type="text" formControlName="firstName" id="firstName" />
+  </div>
+
+  <div>
+    <label for="lastName">Last Name</label>
+    <input type="text" formControlName="lastName" id="lastName" />
+  </div>
+
+  <button type="submit" [disabled]="!profileForm.valid">Submit</button>
+</form>
+<!-- FORM END  -->

@@ -1,4 +1,5 @@
 import { AfterViewInit, Component, ElementRef, ViewChild } from '@angular/core';
+import { FormControl, FormGroup } from '@angular/forms';
 
 @Component({
   selector: 'app-root',
@@ -56,4 +57,15 @@ export class AppComponent {
   disableFalse() {
     this.disable = false;
   }
+
+  // <!-- FORM START  -->
+  profileForm = new FormGroup({
+    firstName: new FormControl(''),
+    lastName: new FormControl(''),
+  });
+
+  onSubmit() {
+    console.log(this.profileForm.value);
+  }
+  // <!-- FORM END  -->
 }

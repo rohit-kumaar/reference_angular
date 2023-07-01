@@ -16,6 +16,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { EventsComponent } from './components/events/events.component';
 import { CounterComponent } from './components/counter/counter.component';
 import { PropertyBindingComponent } from './components/property-binding/property-binding.component';
+import { IfElseComponent } from './components/if-else/if-else.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { PropertyBindingComponent } from './components/property-binding/property
     EventsComponent,
     CounterComponent,
     PropertyBindingComponent,
+    IfElseComponent,
   ],
   imports: [
     BrowserModule,

@@ -16,7 +16,7 @@ export class LearningComponent implements OnInit {
   printInputValue: string = '';
   printOnClickValue: string = '';
 
-  show = true;
+
 
   interpolationMethod() {
     return 'Interpolation Method';

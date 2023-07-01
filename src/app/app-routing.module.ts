@@ -4,12 +4,16 @@ import { AboutComponent } from './components/about/about.component';
 import { HomeComponent } from './components/home/home.component';
 import { UserComponent } from './components/user/user.component';
 import { FormComponent } from './components/form/form.component';
+import { LearningComponent } from './components/learning/learning.component';
+import { EventsComponent } from './components/events/events.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'about', component: AboutComponent },
   { path: 'user', component: UserComponent },
   { path: 'form', component: FormComponent },
+  { path: 'learning', component: LearningComponent },
+  { path: 'events', component: EventsComponent },
 ];
 
 @NgModule({

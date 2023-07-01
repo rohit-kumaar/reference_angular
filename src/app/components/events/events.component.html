@@ -1,0 +1,19 @@
+<h1>Events</h1>
+
+<button (click)="event('Click')">Click Event</button>
+<br />
+<br />
+<input type="text" placeholder="Key Up" #keyup (keyup)="event('keyup')" />
+<br />
+<br />
+<input type="text" placeholder="Key Down" #keydown (keyup)="event('keydown')" />
+<br />
+<br />
+<input type="text" placeholder="Blur" #blur (keyup)="event('Blur')" />
+<br />
+<br />
+<input type="text" placeholder="input" #input (keyup)="event('Input')" />
+<br />
+<br />
+<h2 (mouseover)="event('Mouseover')">Mouse Over</h2>
+<h2 (mouseleave)="event('Mouse Leave')">Mouse Leave</h2>

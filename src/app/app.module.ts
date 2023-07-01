@@ -11,6 +11,9 @@ import { HomeComponent } from './components/home/home.component';
 import { AboutComponent } from './components/about/about.component';
 import { FormComponent } from './components/form/form.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { LearningComponent } from './components/learning/learning.component';
+import { AppRoutingModule } from './app-routing.module';
+import { EventsComponent } from './components/events/events.component';
 
 @NgModule({
   declarations: [
@@ -19,9 +22,12 @@ import { ReactiveFormsModule } from '@angular/forms';
     HomeComponent,
     AboutComponent,
     FormComponent,
+    LearningComponent,
+    EventsComponent,
   ],
   imports: [
     BrowserModule,
+    AppRoutingModule,
     MatDividerModule,
     MatButtonModule,
     MatIconModule,

@@ -1,0 +1,31 @@
+<h1>Property Binding!</h1>
+
+<!-- Property Binding  -->
+<span>Interpolation Binding :</span>
+<br />
+<input
+  type="text"
+  #interPolation
+  name="userName"
+  value="{{ myName }}"
+  disabled="{{ disable }}"
+/>
+
+<br />
+<br />
+
+<span>Property Binding :</span>
+<br />
+<input
+  type="text"
+  #property
+  name="userName"
+  [value]="myName"
+  [disabled]="disable"
+/>
+<br />
+<button (click)="disableFalse()">
+  Disable both the input fields, But the Interpolation not disable because
+  interpolation takes false boolean value as a string
+</button>
+<!-- Property Binding  -->

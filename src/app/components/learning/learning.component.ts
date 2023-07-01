@@ -15,9 +15,7 @@ export class LearningComponent implements OnInit {
   number = 10;
   printInputValue: string = '';
   printOnClickValue: string = '';
- 
-  myName = 'Rohit Kumar';
-  disable = true;
+
   show = true;
 
   interpolationMethod() {
@@ -47,10 +45,4 @@ export class LearningComponent implements OnInit {
   // counter(type: string) {
   //   type === 'add' ? this.count++ : this.count--;
   // }
-
-
-
-  disableFalse() {
-    this.disable = false;
-  }
 }

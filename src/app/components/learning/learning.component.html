@@ -57,28 +57,6 @@
 <h1>Print Input Value On Click : {{ printOnClickValue }}</h1>
 <!-- Print on click  -->
 
-
-
-<!-- Property Binding  -->
-<span>Interpolation Binding</span>
-<input
-  type="text"
-  #interPolation
-  name="userName"
-  value="{{ myName }}"
-  disabled="{{ disable }}"
-/>
-<span>Property Binding</span>
-<input
-  type="text"
-  #property
-  name="userName"
-  [value]="myName"
-  [disabled]="disable"
-/>
-<button (click)="disableFalse()">Disable False</button>
-<!-- Property Binding  -->
-
 <!-- If Condition -->
 <h1>*ngIf</h1>
 <h2 *ngIf="show; then thenID; else elseID"></h2>
@@ -92,7 +70,6 @@
 </ng-template>
 <!-- If Condition -->
 
-
 <ul>
   <li>
     <a routerLink="">Home</a>
@@ -104,7 +81,3 @@
     <a routerLink="user">User</a>
   </li>
 </ul>
-
-
-
-

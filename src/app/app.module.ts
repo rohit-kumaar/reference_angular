@@ -15,6 +15,7 @@ import { LearningComponent } from './components/learning/learning.component';
 import { AppRoutingModule } from './app-routing.module';
 import { EventsComponent } from './components/events/events.component';
 import { CounterComponent } from './components/counter/counter.component';
+import { PropertyBindingComponent } from './components/property-binding/property-binding.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { CounterComponent } from './components/counter/counter.component';
     LearningComponent,
     EventsComponent,
     CounterComponent,
+    PropertyBindingComponent,
   ],
   imports: [
     BrowserModule,

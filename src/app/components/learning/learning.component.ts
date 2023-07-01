@@ -61,15 +61,4 @@ export class LearningComponent implements OnInit {
   disableFalse() {
     this.disable = false;
   }
-
-  // <!-- FORM START  -->
-  profileForm = new FormGroup({
-    firstName: new FormControl(''),
-    lastName: new FormControl(''),
-  });
-
-  onSubmit() {
-    console.log(this.profileForm.value);
-  }
-  // <!-- FORM END  -->
 }

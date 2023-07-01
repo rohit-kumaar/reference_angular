@@ -1,1 +1,38 @@
-<p>form works!</p>
+<h1>Form</h1>
+
+<input
+  type="text"
+  #getValue
+  (keyup)="getValueFunction(getValue.value)"
+  placeholder="Get Input Field Value"
+/>
+<br />
+<label for="getValue">Get Input Value : {{ getInputValue }}</label>
+
+<br />
+<br />
+
+<input type="text" #placeholderValue placeholder="Get Placeholder Value" />
+<button (click)="getPlaceholderValueFunction(placeholderValue.placeholder)">
+  Get Placeholder Value
+</button>
+<label for="placeholderValue"> {{ getPlaceholderValue }}</label>
+
+<br />
+<br />
+
+<!-- FORM START  -->
+<form [formGroup]="profileForm" (ngSubmit)="onSubmit()">
+  <div>
+    <label for="firstName">First Name</label>
+    <input type="text" formControlName="firstName" id="firstName" />
+  </div>
+
+  <div>
+    <label for="lastName">Last Name</label>
+    <input type="text" formControlName="lastName" id="lastName" />
+  </div>
+
+  <button type="submit" [disabled]="!profileForm.valid">Submit</button>
+</form>
+<!-- FORM END  -->

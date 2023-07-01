@@ -6,6 +6,7 @@ import { UserComponent } from './components/user/user.component';
 import { FormComponent } from './components/form/form.component';
 import { LearningComponent } from './components/learning/learning.component';
 import { EventsComponent } from './components/events/events.component';
+import { CounterComponent } from './components/counter/counter.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -14,6 +15,7 @@ const routes: Routes = [
   { path: 'form', component: FormComponent },
   { path: 'learning', component: LearningComponent },
   { path: 'events', component: EventsComponent },
+  { path: 'counter', component: CounterComponent },
 ];
 
 @NgModule({

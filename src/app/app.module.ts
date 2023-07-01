@@ -14,6 +14,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { LearningComponent } from './components/learning/learning.component';
 import { AppRoutingModule } from './app-routing.module';
 import { EventsComponent } from './components/events/events.component';
+import { CounterComponent } from './components/counter/counter.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { EventsComponent } from './components/events/events.component';
     FormComponent,
     LearningComponent,
     EventsComponent,
+    CounterComponent,
   ],
   imports: [
     BrowserModule,

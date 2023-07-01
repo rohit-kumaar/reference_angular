@@ -15,7 +15,7 @@ export class LearningComponent implements OnInit {
   number = 10;
   printInputValue: string = '';
   printOnClickValue: string = '';
-  count: number = 0;
+ 
   myName = 'Rohit Kumar';
   disable = true;
   show = true;
@@ -48,15 +48,7 @@ export class LearningComponent implements OnInit {
   //   type === 'add' ? this.count++ : this.count--;
   // }
 
-  counter(type: string): any {
-    if (type === 'sub') {
-      if (this.count <= 0) return (this.count = 0);
-      this.count--;
-    } else {
-      if (this.count >= 10) return (this.count = 10);
-      this.count++;
-    }
-  }
+
 
   disableFalse() {
     this.disable = false;

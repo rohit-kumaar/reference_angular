@@ -22,6 +22,7 @@ import { SwitchCaseComponent } from './components/switch-case/switch-case.compon
 import { ForLoopComponent } from './components/for-loop/for-loop.component';
 import { NestedLoopComponent } from './components/nested-loop/nested-loop.component';
 import { DynamicStyleComponent } from './components/dynamic-style/dynamic-style.component';
+import { ToggleElementComponent } from './components/toggle-element/toggle-element.component';
 
 @NgModule({
   declarations: [
@@ -40,6 +41,7 @@ import { DynamicStyleComponent } from './components/dynamic-style/dynamic-style.
     ForLoopComponent,
     NestedLoopComponent,
     DynamicStyleComponent,
+    ToggleElementComponent,
   ],
   imports: [
     BrowserModule,

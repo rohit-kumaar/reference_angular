@@ -1,0 +1,9 @@
+<h1>Nested Loop</h1>
+
+<ol *ngFor="let userDetail of userDetails">
+  <li>Name: {{ userDetail.name }}</li>
+  <li>Email: {{ userDetail.email }}</li>
+  <ol type="i" *ngFor="let account of userDetail.socialAccount">
+    <li>Social Accounts: {{ account }}</li>
+  </ol>
+</ol>

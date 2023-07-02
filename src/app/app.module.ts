@@ -20,6 +20,7 @@ import { IfElseComponent } from './components/if-else/if-else.component';
 import { ElseIfComponent } from './components/else-if/else-if.component';
 import { SwitchCaseComponent } from './components/switch-case/switch-case.component';
 import { ForLoopComponent } from './components/for-loop/for-loop.component';
+import { NestedLoopComponent } from './components/nested-loop/nested-loop.component';
 
 @NgModule({
   declarations: [
@@ -36,6 +37,7 @@ import { ForLoopComponent } from './components/for-loop/for-loop.component';
     ElseIfComponent,
     SwitchCaseComponent,
     ForLoopComponent,
+    NestedLoopComponent,
   ],
   imports: [
     BrowserModule,

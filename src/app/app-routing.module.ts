@@ -10,6 +10,7 @@ import { CounterComponent } from './components/counter/counter.component';
 import { PropertyBindingComponent } from './components/property-binding/property-binding.component';
 import { IfElseComponent } from './components/if-else/if-else.component';
 import { ElseIfComponent } from './components/else-if/else-if.component';
+import { SwitchCaseComponent } from './components/switch-case/switch-case.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -22,6 +23,7 @@ const routes: Routes = [
   { path: 'property-binding', component: PropertyBindingComponent },
   { path: 'if-else', component: IfElseComponent },
   { path: 'else-if', component: ElseIfComponent },
+  { path: 'switch-case', component: SwitchCaseComponent },
 ];
 
 @NgModule({

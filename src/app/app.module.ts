@@ -18,6 +18,7 @@ import { CounterComponent } from './components/counter/counter.component';
 import { PropertyBindingComponent } from './components/property-binding/property-binding.component';
 import { IfElseComponent } from './components/if-else/if-else.component';
 import { ElseIfComponent } from './components/else-if/else-if.component';
+import { SwitchCaseComponent } from './components/switch-case/switch-case.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +33,7 @@ import { ElseIfComponent } from './components/else-if/else-if.component';
     PropertyBindingComponent,
     IfElseComponent,
     ElseIfComponent,
+    SwitchCaseComponent,
   ],
   imports: [
     BrowserModule,

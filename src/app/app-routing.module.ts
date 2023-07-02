@@ -9,6 +9,7 @@ import { EventsComponent } from './components/events/events.component';
 import { CounterComponent } from './components/counter/counter.component';
 import { PropertyBindingComponent } from './components/property-binding/property-binding.component';
 import { IfElseComponent } from './components/if-else/if-else.component';
+import { ElseIfComponent } from './components/else-if/else-if.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -20,6 +21,7 @@ const routes: Routes = [
   { path: 'counter', component: CounterComponent },
   { path: 'property-binding', component: PropertyBindingComponent },
   { path: 'if-else', component: IfElseComponent },
+  { path: 'else-if', component: ElseIfComponent },
 ];
 
 @NgModule({

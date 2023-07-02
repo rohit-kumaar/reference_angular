@@ -17,6 +17,7 @@ import { EventsComponent } from './components/events/events.component';
 import { CounterComponent } from './components/counter/counter.component';
 import { PropertyBindingComponent } from './components/property-binding/property-binding.component';
 import { IfElseComponent } from './components/if-else/if-else.component';
+import { ElseIfComponent } from './components/else-if/else-if.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { IfElseComponent } from './components/if-else/if-else.component';
     CounterComponent,
     PropertyBindingComponent,
     IfElseComponent,
+    ElseIfComponent,
   ],
   imports: [
     BrowserModule,

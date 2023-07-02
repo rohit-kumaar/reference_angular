@@ -13,6 +13,7 @@ import { ElseIfComponent } from './components/else-if/else-if.component';
 import { SwitchCaseComponent } from './components/switch-case/switch-case.component';
 import { ForLoopComponent } from './components/for-loop/for-loop.component';
 import { NestedLoopComponent } from './components/nested-loop/nested-loop.component';
+import { DynamicStyleComponent } from './components/dynamic-style/dynamic-style.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -28,6 +29,7 @@ const routes: Routes = [
   { path: 'switch-case', component: SwitchCaseComponent },
   { path: 'for-loop', component: ForLoopComponent },
   { path: 'nested-loop', component: NestedLoopComponent },
+  { path: 'dynamic-style', component: DynamicStyleComponent },
 ];
 
 @NgModule({

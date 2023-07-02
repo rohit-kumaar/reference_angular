@@ -11,6 +11,7 @@ import { PropertyBindingComponent } from './components/property-binding/property
 import { IfElseComponent } from './components/if-else/if-else.component';
 import { ElseIfComponent } from './components/else-if/else-if.component';
 import { SwitchCaseComponent } from './components/switch-case/switch-case.component';
+import { ForLoopComponent } from './components/for-loop/for-loop.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -24,6 +25,7 @@ const routes: Routes = [
   { path: 'if-else', component: IfElseComponent },
   { path: 'else-if', component: ElseIfComponent },
   { path: 'switch-case', component: SwitchCaseComponent },
+  { path: 'for-loop', component: ForLoopComponent },
 ];
 
 @NgModule({

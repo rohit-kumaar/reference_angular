@@ -27,6 +27,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialUiComponent } from './components/material-ui/material-ui.component';
 import { ShareDataComponent } from './components/share-data/share-data.component';
 import { ChildComponent } from './components/share-data/child/child.component';
+import { ReusableComponentComponent } from './components/reusable-component/reusable-component.component';
+import { UsersDetailsComponent } from './components/reusable-component/users-details/users-details.component';
 
 @NgModule({
   declarations: [
@@ -48,6 +50,8 @@ import { ChildComponent } from './components/share-data/child/child.component';
     MaterialUiComponent,
     ShareDataComponent,
     ChildComponent,
+    ReusableComponentComponent,
+    UsersDetailsComponent,
   ],
   imports: [
     BrowserModule,

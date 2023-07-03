@@ -16,6 +16,7 @@ import { NestedLoopComponent } from './components/nested-loop/nested-loop.compon
 import { DynamicStyleComponent } from './components/dynamic-style/dynamic-style.component';
 import { MaterialUiComponent } from './components/material-ui/material-ui.component';
 import { ShareDataComponent } from './components/share-data/share-data.component';
+import { ReusableComponentComponent } from './components/reusable-component/reusable-component.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -34,6 +35,7 @@ const routes: Routes = [
   { path: 'dynamic-style', component: DynamicStyleComponent },
   { path: 'material-ui', component: MaterialUiComponent },
   { path: 'share-data', component: ShareDataComponent },
+  { path: 'reusable-component', component: ReusableComponentComponent },
 ];
 
 @NgModule({

@@ -25,6 +25,8 @@ import { DynamicStyleComponent } from './components/dynamic-style/dynamic-style.
 import { MaterialModule } from './material.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialUiComponent } from './components/material-ui/material-ui.component';
+import { ShareDataComponent } from './components/share-data/share-data.component';
+import { ChildComponent } from './components/share-data/child/child.component';
 
 @NgModule({
   declarations: [
@@ -44,6 +46,8 @@ import { MaterialUiComponent } from './components/material-ui/material-ui.compon
     NestedLoopComponent,
     DynamicStyleComponent,
     MaterialUiComponent,
+    ShareDataComponent,
+    ChildComponent,
   ],
   imports: [
     BrowserModule,

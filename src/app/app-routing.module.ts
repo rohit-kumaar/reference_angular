@@ -18,6 +18,7 @@ import { MaterialUiComponent } from './components/material-ui/material-ui.compon
 import { ShareDataComponent } from './components/share-data/share-data.component';
 import { ReusableComponentComponent } from './components/reusable-component/reusable-component.component';
 import { ChildToParentComponent } from './components/child-to-parent/child-to-parent.component';
+import { TwoWayBindingComponent } from './components/two-way-binding/two-way-binding.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -38,6 +39,7 @@ const routes: Routes = [
   { path: 'share-data', component: ShareDataComponent },
   { path: 'reusable-component', component: ReusableComponentComponent },
   { path: 'child-to-parent', component: ChildToParentComponent },
+  { path: 'two-way-binding', component: TwoWayBindingComponent },
 ];
 
 @NgModule({

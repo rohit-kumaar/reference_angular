@@ -10,7 +10,7 @@ import { UserComponent } from './components/user/user.component';
 import { HomeComponent } from './components/home/home.component';
 import { AboutComponent } from './components/about/about.component';
 import { FormComponent } from './components/form/form.component';
-import { ReactiveFormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { LearningComponent } from './components/learning/learning.component';
 import { AppRoutingModule } from './app-routing.module';
 import { EventsComponent } from './components/events/events.component';
@@ -31,6 +31,7 @@ import { ReusableComponentComponent } from './components/reusable-component/reus
 import { UsersDetailsComponent } from './components/reusable-component/users-details/users-details.component';
 import { ChildToParentComponent } from './components/child-to-parent/child-to-parent.component';
 import { ChildComponentComponent } from './components/child-to-parent/child-component/child-component.component';
+import { TwoWayBindingComponent } from './components/two-way-binding/two-way-binding.component';
 
 @NgModule({
   declarations: [
@@ -56,6 +57,7 @@ import { ChildComponentComponent } from './components/child-to-parent/child-comp
     UsersDetailsComponent,
     ChildToParentComponent,
     ChildComponentComponent,
+    TwoWayBindingComponent,
   ],
   imports: [
     BrowserModule,
@@ -67,6 +69,7 @@ import { ChildComponentComponent } from './components/child-to-parent/child-comp
     ReactiveFormsModule,
     MaterialModule,
     BrowserAnimationsModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

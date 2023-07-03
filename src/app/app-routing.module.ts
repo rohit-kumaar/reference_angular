@@ -17,6 +17,7 @@ import { DynamicStyleComponent } from './components/dynamic-style/dynamic-style.
 import { MaterialUiComponent } from './components/material-ui/material-ui.component';
 import { ShareDataComponent } from './components/share-data/share-data.component';
 import { ReusableComponentComponent } from './components/reusable-component/reusable-component.component';
+import { ChildToParentComponent } from './components/child-to-parent/child-to-parent.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -36,6 +37,7 @@ const routes: Routes = [
   { path: 'material-ui', component: MaterialUiComponent },
   { path: 'share-data', component: ShareDataComponent },
   { path: 'reusable-component', component: ReusableComponentComponent },
+  { path: 'child-to-parent', component: ChildToParentComponent },
 ];
 
 @NgModule({

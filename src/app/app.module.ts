@@ -29,6 +29,8 @@ import { ShareDataComponent } from './components/share-data/share-data.component
 import { ChildComponent } from './components/share-data/child/child.component';
 import { ReusableComponentComponent } from './components/reusable-component/reusable-component.component';
 import { UsersDetailsComponent } from './components/reusable-component/users-details/users-details.component';
+import { ChildToParentComponent } from './components/child-to-parent/child-to-parent.component';
+import { ChildComponentComponent } from './components/child-to-parent/child-component/child-component.component';
 
 @NgModule({
   declarations: [
@@ -52,6 +54,8 @@ import { UsersDetailsComponent } from './components/reusable-component/users-det
     ChildComponent,
     ReusableComponentComponent,
     UsersDetailsComponent,
+    ChildToParentComponent,
+    ChildComponentComponent,
   ],
   imports: [
     BrowserModule,

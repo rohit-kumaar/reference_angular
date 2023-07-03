@@ -22,6 +22,9 @@ import { SwitchCaseComponent } from './components/switch-case/switch-case.compon
 import { ForLoopComponent } from './components/for-loop/for-loop.component';
 import { NestedLoopComponent } from './components/nested-loop/nested-loop.component';
 import { DynamicStyleComponent } from './components/dynamic-style/dynamic-style.component';
+import { MaterialModule } from './material.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MaterialUiComponent } from './components/material-ui/material-ui.component';
 
 @NgModule({
   declarations: [
@@ -40,6 +43,7 @@ import { DynamicStyleComponent } from './components/dynamic-style/dynamic-style.
     ForLoopComponent,
     NestedLoopComponent,
     DynamicStyleComponent,
+    MaterialUiComponent,
   ],
   imports: [
     BrowserModule,
@@ -49,6 +53,8 @@ import { DynamicStyleComponent } from './components/dynamic-style/dynamic-style.
     MatIconModule,
     UserAuthModule,
     ReactiveFormsModule,
+    MaterialModule,
+    BrowserAnimationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

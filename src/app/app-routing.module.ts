@@ -14,6 +14,7 @@ import { SwitchCaseComponent } from './components/switch-case/switch-case.compon
 import { ForLoopComponent } from './components/for-loop/for-loop.component';
 import { NestedLoopComponent } from './components/nested-loop/nested-loop.component';
 import { DynamicStyleComponent } from './components/dynamic-style/dynamic-style.component';
+import { MaterialUiComponent } from './components/material-ui/material-ui.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -30,6 +31,7 @@ const routes: Routes = [
   { path: 'for-loop', component: ForLoopComponent },
   { path: 'nested-loop', component: NestedLoopComponent },
   { path: 'dynamic-style', component: DynamicStyleComponent },
+  { path: 'material-ui', component: MaterialUiComponent },
 ];
 
 @NgModule({

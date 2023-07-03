@@ -32,6 +32,7 @@ import { UsersDetailsComponent } from './components/reusable-component/users-det
 import { ChildToParentComponent } from './components/child-to-parent/child-to-parent.component';
 import { ChildComponentComponent } from './components/child-to-parent/child-component/child-component.component';
 import { TwoWayBindingComponent } from './components/two-way-binding/two-way-binding.component';
+import { TemplateReferenceVariableComponent } from './components/template-reference-variable/template-reference-variable.component';
 
 @NgModule({
   declarations: [
@@ -58,6 +59,7 @@ import { TwoWayBindingComponent } from './components/two-way-binding/two-way-bin
     ChildToParentComponent,
     ChildComponentComponent,
     TwoWayBindingComponent,
+    TemplateReferenceVariableComponent,
   ],
   imports: [
     BrowserModule,

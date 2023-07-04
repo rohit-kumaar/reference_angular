@@ -34,6 +34,7 @@ import { ChildToParentComponent } from './components/child-to-parent/child-to-pa
 import { ChildComponentComponent } from './components/child-to-parent/child-component/child-component.component';
 import { TwoWayBindingComponent } from './components/two-way-binding/two-way-binding.component';
 import { TemplateReferenceVariableComponent } from './components/template-reference-variable/template-reference-variable.component';
+import { TemplateDrivenFormComponent } from './template-driven-form/template-driven-form.component';
 
 @NgModule({
   declarations: [
@@ -62,6 +63,7 @@ import { TemplateReferenceVariableComponent } from './components/template-refere
     ChildComponentComponent,
     TwoWayBindingComponent,
     TemplateReferenceVariableComponent,
+    TemplateDrivenFormComponent,
   ],
   imports: [
     BrowserModule,

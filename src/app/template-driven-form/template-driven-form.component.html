@@ -1,0 +1,12 @@
+<h1>Template Driven Form</h1>
+
+<form
+  #templateDrivenForm="ngForm"
+  (ngSubmit)="userLogin(templateDrivenForm.value)"
+>
+  <input type="text" name="name" placeholder="Enter your name" ngModel />
+  <br />
+  <input type="password" name="password" placeholder="Enter Password" ngModel />
+  <br />
+  <button>Submit</button>
+</form>

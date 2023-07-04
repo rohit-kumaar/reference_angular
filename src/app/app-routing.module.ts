@@ -21,6 +21,7 @@ import { ReusableComponentComponent } from './components/reusable-component/reus
 import { ChildToParentComponent } from './components/child-to-parent/child-to-parent.component';
 import { TwoWayBindingComponent } from './components/two-way-binding/two-way-binding.component';
 import { TemplateReferenceVariableComponent } from './components/template-reference-variable/template-reference-variable.component';
+import { TemplateDrivenFormComponent } from './template-driven-form/template-driven-form.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -43,6 +44,7 @@ const routes: Routes = [
   { path: 'reusable-component', component: ReusableComponentComponent },
   { path: 'child-to-parent', component: ChildToParentComponent },
   { path: 'two-way-binding', component: TwoWayBindingComponent },
+  { path: 'template-driven-form', component: TemplateDrivenFormComponent },
   {
     path: 'template-reference-variable',
     component: TemplateReferenceVariableComponent,

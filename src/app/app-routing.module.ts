@@ -22,6 +22,7 @@ import { ChildToParentComponent } from './components/child-to-parent/child-to-pa
 import { TwoWayBindingComponent } from './components/two-way-binding/two-way-binding.component';
 import { TemplateReferenceVariableComponent } from './components/template-reference-variable/template-reference-variable.component';
 import { TemplateDrivenFormComponent } from './template-driven-form/template-driven-form.component';
+import { ReactiveFormComponent } from './reactive-form/reactive-form.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -49,6 +50,7 @@ const routes: Routes = [
     path: 'template-reference-variable',
     component: TemplateReferenceVariableComponent,
   },
+  { path: 'reactive-form', component: ReactiveFormComponent },
 ];
 
 @NgModule({

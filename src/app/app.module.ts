@@ -35,6 +35,7 @@ import { ChildComponentComponent } from './components/child-to-parent/child-comp
 import { TwoWayBindingComponent } from './components/two-way-binding/two-way-binding.component';
 import { TemplateReferenceVariableComponent } from './components/template-reference-variable/template-reference-variable.component';
 import { TemplateDrivenFormComponent } from './template-driven-form/template-driven-form.component';
+import { ReactiveFormComponent } from './reactive-form/reactive-form.component';
 
 @NgModule({
   declarations: [
@@ -64,6 +65,7 @@ import { TemplateDrivenFormComponent } from './template-driven-form/template-dri
     TwoWayBindingComponent,
     TemplateReferenceVariableComponent,
     TemplateDrivenFormComponent,
+    ReactiveFormComponent,
   ],
   imports: [
     BrowserModule,

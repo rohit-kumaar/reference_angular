@@ -15,6 +15,12 @@ import { ForLoopComponent } from './components/for-loop/for-loop.component';
 import { NestedLoopComponent } from './components/nested-loop/nested-loop.component';
 import { DynamicStyleComponent } from './components/dynamic-style/dynamic-style.component';
 import { ToggleElementComponent } from './components/toggle-element/toggle-element.component';
+import { MaterialUiComponent } from './components/material-ui/material-ui.component';
+import { ShareDataComponent } from './components/share-data/share-data.component';
+import { ReusableComponentComponent } from './components/reusable-component/reusable-component.component';
+import { ChildToParentComponent } from './components/child-to-parent/child-to-parent.component';
+import { TwoWayBindingComponent } from './components/two-way-binding/two-way-binding.component';
+import { TemplateReferenceVariableComponent } from './components/template-reference-variable/template-reference-variable.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -32,6 +38,15 @@ const routes: Routes = [
   { path: 'nested-loop', component: NestedLoopComponent },
   { path: 'dynamic-style', component: DynamicStyleComponent },
   { path: 'toggle-element', component: ToggleElementComponent },
+  { path: 'material-ui', component: MaterialUiComponent },
+  { path: 'share-data', component: ShareDataComponent },
+  { path: 'reusable-component', component: ReusableComponentComponent },
+  { path: 'child-to-parent', component: ChildToParentComponent },
+  { path: 'two-way-binding', component: TwoWayBindingComponent },
+  {
+    path: 'template-reference-variable',
+    component: TemplateReferenceVariableComponent,
+  },
 ];
 
 @NgModule({

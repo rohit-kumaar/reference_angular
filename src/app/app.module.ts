@@ -6,9 +6,6 @@ import { MatDividerModule } from '@angular/material/divider';
 import { MatIconModule } from '@angular/material/icon';
 import { AppComponent } from './app.component';
 import { UserAuthModule } from './user-auth/user-auth.module';
-import { UserComponent } from './components/user/user.component';
-import { HomeComponent } from './components/home/home.component';
-import { AboutComponent } from './components/about/about.component';
 import { FormComponent } from './components/form/form.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { LearningComponent } from './components/learning/learning.component';
@@ -40,6 +37,10 @@ import { AlphabetOnlyDirective } from './directive/alphabetOnly/alphabet-only.di
 import { DirectiveComponentComponent } from './components/directive-component/directive-component.component';
 import { RedElDirective } from './directive/redEl/red-el.directive';
 import { ValueChangeDirective } from './directive/valueChange/value-change.directive';
+import { RouterComponent } from './components/router/router.component';
+import { UserComponent } from './components/router/user/user.component';
+import { HomeComponent } from './components/router/home/home.component';
+import { AboutComponent } from './components/router/about/about.component';
 
 @NgModule({
   declarations: [
@@ -74,6 +75,7 @@ import { ValueChangeDirective } from './directive/valueChange/value-change.direc
     DirectiveComponentComponent,
     RedElDirective,
     ValueChangeDirective,
+    RouterComponent,
   ],
   imports: [
     BrowserModule,

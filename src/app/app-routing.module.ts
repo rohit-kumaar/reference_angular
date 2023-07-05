@@ -1,8 +1,5 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { AboutComponent } from './components/about/about.component';
-import { HomeComponent } from './components/home/home.component';
-import { UserComponent } from './components/user/user.component';
 import { FormComponent } from './components/form/form.component';
 import { LearningComponent } from './components/learning/learning.component';
 import { EventsComponent } from './components/events/events.component';
@@ -24,13 +21,14 @@ import { TemplateReferenceVariableComponent } from './components/template-refere
 import { TemplateDrivenFormComponent } from './template-driven-form/template-driven-form.component';
 import { ReactiveFormComponent } from './reactive-form/reactive-form.component';
 import { DirectiveComponentComponent } from './components/directive-component/directive-component.component';
+import { RouterComponent } from './components/router/router.component';
+import { HomeComponent } from './components/router/home/home.component';
+import { AboutComponent } from './components/router/about/about.component';
+import { UserComponent } from './components/router/user/user.component';
 
 const routes: Routes = [
-  { path: '', component: HomeComponent },
-  { path: 'about', component: AboutComponent },
-  { path: 'user', component: UserComponent },
+  { path: '', component: LearningComponent },
   { path: 'form', component: FormComponent },
-  { path: 'learning', component: LearningComponent },
   { path: 'events', component: EventsComponent },
   { path: 'counter', component: CounterComponent },
   { path: 'property-binding', component: PropertyBindingComponent },
@@ -53,6 +51,15 @@ const routes: Routes = [
   },
   { path: 'reactive-form', component: ReactiveFormComponent },
   { path: 'directive-component', component: DirectiveComponentComponent },
+  {
+    path: 'router',
+    component: RouterComponent,
+    children: [
+      { path: 'home', component: HomeComponent },
+      { path: 'about', component: AboutComponent },
+      { path: 'user', component: UserComponent },
+    ],
+  },
 ];
 
 @NgModule({

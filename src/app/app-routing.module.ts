@@ -25,6 +25,7 @@ import { RouterComponent } from './components/router/router.component';
 import { HomeComponent } from './components/router/home/home.component';
 import { AboutComponent } from './components/router/about/about.component';
 import { UserComponent } from './components/router/user/user.component';
+import { ServiceComponentComponent } from './components/service-component/service-component.component';
 
 const routes: Routes = [
   { path: '', component: LearningComponent },
@@ -60,6 +61,7 @@ const routes: Routes = [
       { path: 'user/:id', component: UserComponent },
     ],
   },
+  { path: 'service', component: ServiceComponentComponent },
 ];
 
 @NgModule({

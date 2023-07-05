@@ -1,0 +1,13 @@
+form {
+  > div {
+    padding-block: 5px;
+    > input {
+      display: block;
+    }
+
+    > span {
+      font-size: 12px;
+      color: red;
+    }
+  }
+}

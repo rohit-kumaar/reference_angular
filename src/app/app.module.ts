@@ -22,6 +22,7 @@ import { SwitchCaseComponent } from './components/switch-case/switch-case.compon
 import { ForLoopComponent } from './components/for-loop/for-loop.component';
 import { NestedLoopComponent } from './components/nested-loop/nested-loop.component';
 import { DynamicStyleComponent } from './components/dynamic-style/dynamic-style.component';
+import { ToggleElementComponent } from './components/toggle-element/toggle-element.component';
 import { MaterialModule } from './material.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialUiComponent } from './components/material-ui/material-ui.component';
@@ -34,6 +35,8 @@ import { ChildComponentComponent } from './components/child-to-parent/child-comp
 import { TwoWayBindingComponent } from './components/two-way-binding/two-way-binding.component';
 import { TemplateReferenceVariableComponent } from './components/template-reference-variable/template-reference-variable.component';
 import { AlphabetOnlyDirective } from './directive/alphabet-only.directive';
+import { TemplateDrivenFormComponent } from './template-driven-form/template-driven-form.component';
+import { ReactiveFormComponent } from './reactive-form/reactive-form.component';
 
 @NgModule({
   declarations: [
@@ -52,6 +55,7 @@ import { AlphabetOnlyDirective } from './directive/alphabet-only.directive';
     ForLoopComponent,
     NestedLoopComponent,
     DynamicStyleComponent,
+    ToggleElementComponent,
     MaterialUiComponent,
     ShareDataComponent,
     ChildComponent,
@@ -62,6 +66,8 @@ import { AlphabetOnlyDirective } from './directive/alphabet-only.directive';
     TwoWayBindingComponent,
     TemplateReferenceVariableComponent,
     AlphabetOnlyDirective,
+    TemplateDrivenFormComponent,
+    ReactiveFormComponent,
   ],
   imports: [
     BrowserModule,

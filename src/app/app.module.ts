@@ -42,6 +42,7 @@ import { UserComponent } from './components/router/user/user.component';
 import { HomeComponent } from './components/router/home/home.component';
 import { AboutComponent } from './components/router/about/about.component';
 import { ServiceComponentComponent } from './components/service-component/service-component.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -90,6 +91,7 @@ import { ServiceComponentComponent } from './components/service-component/servic
     MaterialModule,
     BrowserAnimationsModule,
     FormsModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

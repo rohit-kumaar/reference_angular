@@ -1,8 +1,14 @@
 <h1>Service!</h1>
 
+<h2>Custom Data</h2>
 <ul *ngFor="let user of users">
   <li>
     Name : {{ user.name }} <br />
     Email : {{ user.email }}
   </li>
+</ul>
+
+<h2>API Data</h2>
+<ul *ngFor="let user of apiUsers">
+  <li>{{ user.name }} <br />{{ user.email }} <br />{{ user.website }}</li>
 </ul>

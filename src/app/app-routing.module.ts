@@ -57,7 +57,7 @@ const routes: Routes = [
     children: [
       { path: 'home', component: HomeComponent },
       { path: 'about', component: AboutComponent },
-      { path: 'user', component: UserComponent },
+      { path: 'user/:id', component: UserComponent },
     ],
   },
 ];

@@ -11,14 +11,9 @@ export class RouterComponent implements OnInit {
 
   constructor(private route: ActivatedRoute) {}
 
-  ngOnInit(): void {
+  ngOnInit() {
+    // This is not working
     this.userId = this.route.snapshot.paramMap.get('id');
-
     console.log(this.route.snapshot.paramMap.get('id'));
-
-    console.log(this.route);
-    
-
-    
   }
 }

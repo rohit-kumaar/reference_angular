@@ -10,6 +10,9 @@ export class TemplateReferenceVariableComponent implements OnInit {
 
   ngOnInit(): void {}
 
+  // tempFunction(data: any) {
+  //   console.log(data);
+  // }
   tempFunction(data: HTMLInputElement) {
     console.log(data);
   }

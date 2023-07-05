@@ -23,6 +23,7 @@ import { TwoWayBindingComponent } from './components/two-way-binding/two-way-bin
 import { TemplateReferenceVariableComponent } from './components/template-reference-variable/template-reference-variable.component';
 import { TemplateDrivenFormComponent } from './template-driven-form/template-driven-form.component';
 import { ReactiveFormComponent } from './reactive-form/reactive-form.component';
+import { DirectiveComponentComponent } from './components/directive-component/directive-component.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -51,6 +52,7 @@ const routes: Routes = [
     component: TemplateReferenceVariableComponent,
   },
   { path: 'reactive-form', component: ReactiveFormComponent },
+  { path: 'directive-component', component: DirectiveComponentComponent },
 ];
 
 @NgModule({

@@ -34,9 +34,12 @@ import { ChildToParentComponent } from './components/child-to-parent/child-to-pa
 import { ChildComponentComponent } from './components/child-to-parent/child-component/child-component.component';
 import { TwoWayBindingComponent } from './components/two-way-binding/two-way-binding.component';
 import { TemplateReferenceVariableComponent } from './components/template-reference-variable/template-reference-variable.component';
-import { AlphabetOnlyDirective } from './directive/alphabet-only.directive';
 import { TemplateDrivenFormComponent } from './template-driven-form/template-driven-form.component';
 import { ReactiveFormComponent } from './reactive-form/reactive-form.component';
+import { AlphabetOnlyDirective } from './directive/alphabetOnly/alphabet-only.directive';
+import { DirectiveComponentComponent } from './components/directive-component/directive-component.component';
+import { RedElDirective } from './directive/redEl/red-el.directive';
+import { ValueChangeDirective } from './directive/valueChange/value-change.directive';
 
 @NgModule({
   declarations: [
@@ -68,6 +71,9 @@ import { ReactiveFormComponent } from './reactive-form/reactive-form.component';
     AlphabetOnlyDirective,
     TemplateDrivenFormComponent,
     ReactiveFormComponent,
+    DirectiveComponentComponent,
+    RedElDirective,
+    ValueChangeDirective,
   ],
   imports: [
     BrowserModule,

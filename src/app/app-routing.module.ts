@@ -26,6 +26,7 @@ import { HomeComponent } from './components/router/home/home.component';
 import { AboutComponent } from './components/router/about/about.component';
 import { UserComponent } from './components/router/user/user.component';
 import { ServiceComponentComponent } from './components/service-component/service-component.component';
+import { PostApiMethodComponent } from './components/post-api-method/post-api-method.component';
 
 const routes: Routes = [
   { path: '', component: LearningComponent },
@@ -62,6 +63,7 @@ const routes: Routes = [
     ],
   },
   { path: 'service', component: ServiceComponentComponent },
+  { path: 'post-api-method', component: PostApiMethodComponent },
 ];
 
 @NgModule({

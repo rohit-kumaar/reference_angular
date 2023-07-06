@@ -1,0 +1,24 @@
+<h1>Post API Method</h1>
+
+<form #loginForm="ngForm" (ngSubmit)="loginFormFunction(loginForm.value)">
+  <div>
+    <input type="text" name="name" placeholder="Enter Your Name" ngModel />
+  </div>
+
+  <div>
+    <input type="email" name="email" placeholder="Enter Your Email" ngModal />
+  </div>
+
+  <div>
+    <input
+      type="password"
+      name="password"
+      placeholder="Enter Your password"
+      ngModal
+    />
+  </div>
+
+  <div>
+    <button type="submit">Submit</button>
+  </div>
+</form>

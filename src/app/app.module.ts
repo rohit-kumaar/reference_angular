@@ -43,6 +43,7 @@ import { HomeComponent } from './components/router/home/home.component';
 import { AboutComponent } from './components/router/about/about.component';
 import { ServiceComponentComponent } from './components/service-component/service-component.component';
 import { HttpClientModule } from '@angular/common/http';
+import { PostApiMethodComponent } from './components/post-api-method/post-api-method.component';
 
 @NgModule({
   declarations: [
@@ -79,6 +80,7 @@ import { HttpClientModule } from '@angular/common/http';
     ValueChangeDirective,
     RouterComponent,
     ServiceComponentComponent,
+    PostApiMethodComponent,
   ],
   imports: [
     BrowserModule,

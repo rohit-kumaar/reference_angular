@@ -7,9 +7,15 @@ import { Injectable } from '@angular/core';
 export class ApiUserDataService {
   API = 'https://jsonplaceholder.typicode.com/users';
 
+  POST_API = 'https://jsonplaceholder.typicode.com/posts';
+
   constructor(private http: HttpClient) {}
 
   users() {
     return this.http.get(this.API);
+  }
+
+  addUser(data: any) {
+    return this.http.post(this.POST_API, data);
   }
 }
